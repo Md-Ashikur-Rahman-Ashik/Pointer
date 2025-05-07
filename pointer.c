@@ -8,7 +8,8 @@ int main()
     int *ptr;
     ptr = &x;
     printf("%p\n", ptr);
-    printf("%p", &ptr);
+    // printf("%p", &ptr);
+    printf("%d", *ptr);
 
     return 0;
 }
