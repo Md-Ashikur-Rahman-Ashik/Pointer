@@ -36,12 +36,27 @@
 //     return 0;
 // }
 
+// #include <stdio.h>
+
+// int main()
+// {
+//     int ary[4] = {1, 2, 3, 4};
+//     printf("%d\n", *ary);
+
+//     return 0;
+// }
+
 #include <stdio.h>
 
 int main()
 {
     int ary[4] = {1, 2, 3, 4};
-    printf("%d\n", *ary);
+    int *p;
+
+    p = ary + 3;
+    *p = 5;
+
+    printf("%d\n", ary[3]);
 
     return 0;
 }
