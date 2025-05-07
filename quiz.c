@@ -17,21 +17,31 @@
 //     return 0;
 // }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-void m(int *p)
-{
-    int i = 0;
-    for (i = 0; i < 5; i++)
-    {
-        printf("%d", p[i]);
-    }
-}
+// void m(int *p)
+// {
+//     int i = 0;
+//     for (i = 0; i < 5; i++)
+//     {
+//         printf("%d", p[i]);
+//     }
+// }
+
+// int main()
+// {
+//     int a[5] = {6, 5, 3};
+//     m(a);
+
+//     return 0;
+// }
+
+#include <stdio.h>
 
 int main()
 {
-    int a[5] = {6, 5, 3};
-    m(a);
+    int ary[4] = {1, 2, 3, 4};
+    printf("%d\n", *ary);
 
     return 0;
 }
